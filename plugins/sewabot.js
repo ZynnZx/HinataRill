@@ -50,7 +50,7 @@ wa.me/${owner[0]}
   await conn.relayMessage(prepare.key.remoteJid,prepare.message,{messageId:prepare.key.id})
   
   // Kontak
-  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;${author};;;\nFN:${author}\nORG:${author}\nTITLE:\nitem1.TEL;waid=6282195322106:+62 821-9532-2106\nitem1.X-ABLabel:${author}\nX-WA-BIZ-DESCRIPTION:${htjava} Nih owner ku kack yg mengaktifkan aq.\nX-WA-BIZ-NAME:${author}\nEND:VCARD`
+  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;${author};;;\nFN:${author}\nORG:${author}\nTITLE:\nitem1.TEL;waid=6285380166282:+62 853-8016-6282\nitem1.X-ABLabel:${author}\nX-WA-BIZ-DESCRIPTION:${htjava} Nih owner ku kack yg mengaktifkan aq.\nX-WA-BIZ-NAME:${author}\nEND:VCARD`
 await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard }] }}, {quoted: m})
 }
 
@@ -98,7 +98,7 @@ let pree = await generateWAMessageFromContent(m.key.remoteJid,
 if (command == 'menggrup') {
 if (!text) throw `Teksnya?`
 let preeeeee = await generateWAMessageFromContent(m.key.remoteJid,
-{"groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us',
+{"groupInviteMessage": { "groupJid": '6285380166282-1616169743@g.us',
 "inviteCode": text,
 "groupName": author,
 "footerText": wm,
