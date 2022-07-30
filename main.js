@@ -27,12 +27,10 @@ import { tmpdir } from 'os'
 import { format } from 'util'
 import { makeWASocket, protoType, serialize } from './lib/simple.js'
 import { Low, JSONFile } from 'lowdb'
-/*
 import {
   mongoDB,
   mongoDBV2
 } from './lib/mongoDB.js'
-*/
 import store from './lib/store.js'
 
 const {
@@ -175,8 +173,8 @@ global.reloadHandler = async function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = '👋 Hallo @user\n\n                *W E L C O M E*\n⫹⫺ In @subject\n\n⫹⫺ Read *DESCRIPTION*\n@desc'
-  conn.bye = '👋 Byee @user\n\n                *G O O D B Y E*\n⫹⫺ In @subject'
+  conn.welcome = '                [ *WELCOME* ]\n\n╭───────────⸙\n│⫹⫺ in @subject\n╰┬──────────⸙\n╭┫ 👋 Hallo @user\n││ \n│┣─[ *INTRO* ]\n││ *Nama:*\n││ *Umur:*\n││ *Gender:*\n│╰──────────⸙\n╰[ *DESCRIPTION* ]\n@desc'
+  conn.bye = '                [ *GOODBYE* ]\n\nSayonara *@user* 👋'
   conn.spromote = '*@user* Sekarang jadi admin!'
   conn.sdemote = '*@user* Sekarang bukan lagi admin!'
   conn.sDesc = 'Deskripsi telah diubah menjadi \n@desc'
