@@ -6,16 +6,16 @@ import moment from 'moment-timezone'
 
 /*Oᴡɴᴇʀ number*/
 global.owner = [
-  ['6282195322106', '️Oᴡɴᴇʀ One', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Two', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Three', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Four', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Five', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Six', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Seven', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Eight', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Nine', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Teen', true]
+  ['6285380166282', '️Oᴡɴᴇʀ One', true],
+  ['6285380166282', '️Oᴡɴᴇʀ Two', true],
+  ['6285380166282', '️Oᴡɴᴇʀ Three', true],
+  ['6285380166282', '️Oᴡɴᴇʀ Four', true],
+  ['6285380166282', '️Oᴡɴᴇʀ Five', true],
+  ['6285380166282', '️Oᴡɴᴇʀ Six', true],
+  ['6285380166282', '️Oᴡɴᴇʀ Seven', true],
+  ['6285380166282', '️Oᴡɴᴇʀ Eight', true],
+  ['6285380166282', '️Oᴡɴᴇʀ Nine', true],
+  ['6285380166282', '️Oᴡɴᴇʀ Teen', true]
 ]
 global.mods = []
 global.prems = []
@@ -66,15 +66,15 @@ global.APIKeys = {
 }
 
 /*Number*/
-global.nomorbot = '6285171216276'
-global.nomorown = '6282195322106'
-global.namebot = 'ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ'
-global.nameown = '「 Oᴡɴᴇʀ 」'
+global.nomorbot = '6285295374964'
+global.nomorown = '6285380166282'
+global.namebot = 'Vanz-Botz'
+global.nameown = '「 Kahfi Official 」'
 
 /*Watermark*/
-global.wm = '                「 ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ あ⁩ 」'
+global.wm = '                「 Vanz Botzあ⁩ 」'
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ'
+global.wm3 = '⫹⫺ Vanz Botz'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
@@ -369,11 +369,11 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 
 /*Link*/
-global.sig = 'https://instagram.com/wudysoft'
-global.sgh = 'https://github.com/AyGemuy'
-global.sgc = 'https://chat.whatsapp.com/Fxz8FpQ0ddr2GrEjfYkJ1E'
-global.sdc = 'https://discord.com/wudysoft'
-global.snh = 'https://tiktok.com/@upload_file'
+global.sig = 'https://instagram.com/Kahfi_ofc'
+global.sgh = 'https://github.com/Kahfi-XD'
+global.sgc = 'https://chat.whatsapp.com/EArOqvYKMvMKB5zdXJFVxg'
+global.sdc = 'https://discord.com/Kahfi Aja'
+global.snh = 'https://vt.tiktok.com/ZSR2Fo81e/'
 
 /*Nsfw*/
 global.optsnsfw = true
@@ -417,7 +417,7 @@ global.htjava = '⫹⫺'
 global.stickpack = '.'
 global.stickauth = `☂︎ ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = '☂︎ Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.author = 'ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ X Wudysoft'
+global.author = 'Vanz Botz X Kahfi-XD'
 global.multiplier = 69
 
 /*Pesan*/
@@ -430,17 +430,17 @@ global.gcwangsaf = 'https://chat.whatsapp.com/Fxz8FpQ0ddr2GrEjfYkJ1E'
 
 /*Donasi*/
 global.saweria = 'https://saweria.co/wudysoft'
-global.dana = ['0887435373103']
-global.pulsa = ['082195322106']
+global.dana = ['085380166282']
+global.pulsa = ['085380166282']
 global.trakteer = 'https://trakteer.id/wudysoft'
-global.paypal = 'wudysoft@mail.com'
-global.gopay = '082195322106'
-global.pdana = '0887435373103'
-global.povo = '082195322106'
-global.pgopay = '082195322106'
-global.ppulsa = '082195322106'
-global.ppulsa2 = '082195322106'
-global.psaweria = 'https://saweria.com/Wudysoft'
+global.paypal = ''
+global.gopay = ''
+global.pdana = '085380166282'
+global.povo = ''
+global.pgopay = ''
+global.ppulsa = '085380166282'
+global.ppulsa2 = '085380166282'
+global.psaweria = 'https://saweria.com/Kahfiaja'
 
 /*Emoji*/
 global.rpg = {
